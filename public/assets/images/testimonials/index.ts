@@ -1,0 +1,6 @@
+export { default as testimonialLine } from './testimonialLine.svg'
+export { default as carouselImg1 } from './carouselImg1.svg'
+export { default as carouselImg2 } from './carouselImg2.jpg'
+export { default as carouselImg3 } from './carouselImg3.jpg'
+export { default as carouselImg4 } from './carouselImg4.jpg'
+export { default as carouselImg5 } from './carouselImg5.jpg'

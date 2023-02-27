@@ -1,0 +1,432 @@
+.whiteSpace {
+  background-color: white;
+  width: 100%;
+  height: 100px;
+}
+
+.email {
+  text-decoration: underline;
+  color: #f2c900;
+}
+
+.email:hover {
+  color: #ffffff;
+}
+
+.contactContainer {
+  /* background-color: #f6f6f6; */
+  background-color: white;
+  /* height: 605px; */
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 66px;
+  padding: 8.125rem 10.313rem 8.125rem 8.313rem;
+}
+
+.leftSide {
+  height: 100%;
+  flex: 1;
+  /* width: 40%; */
+
+  /* align-items: center; */
+  /* justify-content: space-between; */
+  display: flex;
+  /* margin-left: 3rem; */
+}
+
+.rightSide {
+  height: 332px;
+  /* width: 40%; */
+  flex: 1;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 4rem 0 4rem 0;
+  flex: 1;
+}
+
+.supportCenter,
+.talkToUs {
+  height: 185px;
+  width: 404px;
+  border-radius: 8px;
+  /* box-shadow: 0px 4px 21px 0px #f8b40036; */
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  justify-content: center;
+}
+
+.supportCenter {
+  margin-bottom: 6rem;
+}
+
+.talkToUs > span {
+  font-style: normal;
+  font-size: 20px;
+  line-height: 100%;
+  /* or 20px */
+  color: #000000;
+  margin-bottom: 1rem;
+  height: 20.54px;
+}
+
+.btnTalkToUs > button {
+  box-sizing: border-box;
+  position: relative;
+  width: 138px;
+  height: 44px;
+  border: 1px solid #f8b400;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnSupportCenter > button {
+  width: 229px;
+  box-sizing: border-box;
+  position: relative;
+  height: 44px;
+  border: 1px solid #f8b400;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnTalkToUs > button:hover,
+.btnSupportCenter > button:hover {
+  background-color: #229698;
+  color: #ffffff;
+}
+
+.supportCenter > span {
+  font-family: 'Poppins' sans-serif;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 21px;
+  color: #000000;
+  height: 20.54px;
+}
+
+.btnTalkToUs > span {
+  font-family: 'Poppins' sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 21px;
+  color: #000000;
+  height: 21px;
+}
+
+.supportCenter > p,
+.talkToUs > p {
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 18px;
+  line-height: 18px;
+  color: #000000;
+  margin-bottom: 2rem;
+}
+
+.textDiv > p {
+  font-size: 25px;
+  line-height: 120%;
+  font-weight: 400px;
+  font-style: normal;
+  font-family: Poppins;
+  color: #000000;
+}
+
+.textDiv > span {
+  font-size: 24.5px;
+  line-height: 42.8px;
+  text-align: left;
+  color: #229698;
+  margin-bottom: 3rem;
+  border-bottom: 3px solid #229698;
+}
+@media (max-width: 1330px) {
+  .contactContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 132px;
+    /* padding: 8.125rem 6.313rem 8.125rem 6.313rem; */
+  }
+}
+
+@media (max-width: 1439px) {
+  .contactContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    /* padding: 8.125rem 6.313rem 8.125rem 6.313rem; */
+  }
+}
+@media (max-width: 1280px) {
+  .contactContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    /* padding: 8.125rem 6.313rem 8.125rem 6.313rem; */
+  }
+  .supportCenter,
+  .talkToUs {
+    width: auto;
+  }
+
+  .textDiv > p {
+    font-size: 20px;
+    line-height: 60%;
+    margin-bottom: 5px;
+  }
+  .textDiv > span {
+    font-size: 23px;
+    line-height: 32px;
+    text-align: left;
+    color: #229698;
+    margin-bottom: -1rem;
+  }
+  .supportCenter > p,
+  .talkToUs > p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 80%;
+    color: #000000;
+    margin-bottom: 2rem;
+  }
+
+  .rightSide {
+    margin-right: 30px;
+    margin-left: 30px;
+    width: auto;
+  }
+
+  .supportCenter > button {
+    margin-bottom: 30px;
+  }
+
+  .btnSupportCenter {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 1035px) {
+  .contactContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    /* padding: 8.125rem 6.313rem 8.125rem 6.313rem; */
+  }
+}
+
+@media (max-width: 976px) {
+  .contactContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    padding: 1rem 2.313rem 2.125rem 6.313rem;
+  }
+  .supportCenter,
+  .talkToUs {
+    width: auto;
+  }
+
+  .textDiv > p {
+    font-size: 14px;
+    line-height: 50%;
+    margin-bottom: 5px;
+  }
+  .textDiv > span {
+    font-size: 20px;
+    line-height: 28px;
+    text-align: left;
+    color: #229698;
+    margin-bottom: -1rem;
+  }
+  .supportCenter > p,
+  .talkToUs > p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600px;
+    font-size: 10px;
+    line-height: 60%;
+    color: #000000;
+    margin-bottom: 2rem;
+  }
+
+  .rightSide {
+    margin-right: 30px;
+    margin-left: 30px;
+    width: auto;
+    margin-left: 0rem;
+  }
+
+  .supportCenter > button {
+    margin-bottom: 30px;
+  }
+
+  .btnSupportCenter {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contactContainer {
+    background-color: #f6f6f6;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 1rem 6.313rem 2.125rem 6.313rem;
+  }
+  .leftSide {
+    height: 100%;
+    width: 100%;
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    /* margin-right: 2rem; */
+  }
+
+  .rightSide {
+    height: 332px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 4rem 0 4rem 0;
+  }
+
+  .talkToUs > span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600px;
+    font-size: 20px;
+    line-height: 100%;
+    color: #000000;
+    margin-bottom: 1rem;
+    height: 20.54px;
+  }
+
+  .supportCenter > p,
+  .talkToUs > p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 100%;
+    color: #000000;
+    margin-bottom: 2rem;
+  }
+
+  .textDiv > p {
+    font-size: 25px;
+    line-height: 120%;
+    font-weight: 400px;
+    font-style: normal;
+    font-family: Poppins;
+    color: #000000;
+  }
+
+  .textDiv > span {
+    font-size: 24.5px;
+    line-height: 42.8px;
+    text-align: left;
+    color: #229698;
+    margin-bottom: 3rem;
+  }
+}
+@media (max-width: 600px) {
+  .contactContainer {
+    background-color: #f6f6f6;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 0rem 0rem 0rem 0rem;
+  }
+
+  .supportCenter > p,
+  .talkToUs > p {
+    font-size: 14px;
+  }
+
+  .textDiv > p {
+    font-size: 20px;
+    line-height: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .contactContainer {
+    background-color: #f6f6f6;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    /* padding: 6rem 3rem 6rem 3rem; */
+  }
+
+  .textDiv > p {
+    font-size: 16px;
+    line-height: 100%;
+    font-weight: 400px;
+    font-style: normal;
+    font-family: Poppins;
+    color: #000000;
+  }
+
+  .textDiv > span {
+    font-size: 18px;
+    line-height: 42.8px;
+    text-align: left;
+    color: #229698;
+    margin-bottom: 3rem;
+  }
+  .supportCenter > p,
+  .talkToUs > p {
+    font-size: 11px;
+  }
+}
+@media (max-width: 340px) {
+  .textDiv > p {
+    font-size: 12px;
+  }
+
+  .textDiv > span {
+    font-size: 18px;
+  }
+  .supportCenter > p,
+  .talkToUs > p {
+    font-size: 8px;
+  }
+}

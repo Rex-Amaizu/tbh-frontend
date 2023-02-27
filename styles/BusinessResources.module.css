@@ -1,0 +1,44 @@
+.businessResourcesContainer {
+  width: 100%;
+  background-color: #ffffff;
+  /* padding: 0 3rem; */
+  padding: 100px 0;
+  /* height: 700px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 420px) and (max-width: 511px) {
+  .businessResourcesContainer {
+    margin-top: 100px;
+  }
+}
+.sliderContainer {
+  max-width: 90%;
+  height: 100%;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+@media (max-width: 511px) {
+  .sliderContainer {
+    max-width: 95%;
+    gap: 10px;
+  }
+}
+.slider {
+  overflow-x: scroll;
+  white-space: nowrap;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+  /* IE and Edge */
+  -ms-overflow-style: none;
+  /* Firefox */
+  scrollbar-width: none;
+}
+
+.slider::-webkit-scrollbar {
+  display: none;
+}

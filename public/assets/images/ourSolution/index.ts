@@ -1,0 +1,13 @@
+export { default as img12 } from './img12.jpg';
+export { default as img13 } from './img13.png';
+export { default as imgEquip } from './imgEquip.svg';
+export { default as img9 } from './img9.jpg';
+export { default as img10 } from './img10.jpg';
+export { default as img11 } from './img11.jpg';
+export { default as img15 } from './img15.png';
+export { default as img16 } from './img16.svg';
+export { default as img17 } from './img17.png';
+export { default as img40 } from './img40.svg';
+export { default as arrow4 } from './arrow4.svg';
+export { default as solutionLine } from './solutionLine.svg';
+export { default as arrowBlak } from './arrowBlak.svg';

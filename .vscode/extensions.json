@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "pkief.material-icon-theme",
+    "wallabyjs.quokka-vscode",
+    "wallabyjs.wallaby-vscode",
+    "davidanson.vscode-markdownlint",
+    "naumovs.color-highlight"
+  ]
+}
