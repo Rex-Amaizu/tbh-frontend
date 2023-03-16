@@ -1,0 +1,386 @@
+.mainBody {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+}
+
+.container {
+  /* width: 50%; */
+  padding: 9% 3.5rem 0 0rem;
+  height: 712px;
+  display: flex;
+  flex-direction: column;
+}
+
+.bannerTtext {
+  height: 162px;
+  width: auto;
+}
+
+.bannerTtext > h2 {
+  text-transform: capitalize;
+  color: #000000;
+  font-size: 52px;
+  line-height: 55.5px;
+  font-style: normal;
+}
+
+.message::before {
+  content: 'grow';
+  animation: animate 5s steps(1, end) infinite;
+}
+
+@keyframes animate {
+  0% {
+    content: 'grow';
+  }
+  20% {
+    content: 'scale';
+    color: royalblue;
+  }
+  40% {
+    content: 'profit';
+    color: olivedrab;
+  }
+  60% {
+    content: 'succeed';
+    color: #f8b400;
+  }
+  80% {
+    content: 'innovate';
+    color: palevioletred;
+  }
+}
+
+.subText {
+  font-size: 20px;
+  line-height: 30px;
+  text-align: left;
+  height: 120px;
+  width: 716px;
+  color: #000000;
+  margin-top: 2rem;
+}
+
+.btnText {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.bannerBtn > button {
+  position: relative;
+  width: 202px;
+  height: 46px;
+  background: #028789;
+  border-radius: 5.5px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.svgAnimate {
+  position: absolute;
+  animation-name: run;
+  animation: linear infinite;
+  -webkit-animation: linear infinite;
+  -webkit-animation-name: run;
+  animation-duration: 5s;
+  -webkit-animation-duration: 5s;
+}
+
+@keyframes run {
+  0% {
+    left: 83%;
+  }
+  50% {
+    left: 90%;
+  }
+  100% {
+    left: 83%;
+  }
+}
+
+@-webkit-keyframes run {
+  0% {
+    left: 83%;
+  }
+  50% {
+    left: 90%;
+  }
+  100% {
+    left: 83%;
+  }
+}
+
+/* .text {
+  /* transform: translate(-50%, -50%);
+     postion: absolute;
+  
+  background: linear-gradient(
+    -45deg,
+    #dfb79e,
+    #dfb79e,
+    #2b9413,
+    #2b9413,
+    #e25d52,
+    #e25d52
+  );
+  background-size: 300%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animated_text 6s ease-in-out infinite;
+  -moz-animation: animated_text 6s ease-in-out infinite;
+  -webkit-animation: animated_text 6s ease-in-out infinite;
+}
+
+@keyframes animated_text {
+  0% {
+    background-position: 0px 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0px 50%;
+  }
+} */
+
+@media (max-width: 1280px) {
+  /* .container {
+    background-size: inherit;
+  } */
+
+  .btnText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16.5px;
+  }
+
+  .bannerTtext {
+    height: 140px;
+    margin-bottom: 0.5rem;
+  }
+
+  .bannerTtext > h2 {
+    text-transform: capitalize;
+    color: #000000;
+    font-size: 45px;
+    line-height: 53.5px;
+    font-style: normal;
+    font-weight: 600;
+  }
+
+  .subText {
+    font-size: 18px !important;
+    margin-bottom: 0 !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .subText {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 822px) {
+  .container {
+    background-image: url(https://raw.githubusercontent.com/Awka-man/image-bucket/main/bkgrd/hme/tab/bkgrdTab.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 12% !important;
+    /* width: 100vw !important; */
+  }
+
+  .bannerTtext {
+    height: 170px !important;
+    margin-bottom: 0 !important;
+    width: 457.63px !important;
+  }
+
+  .bannerTtext > h2 {
+    font-size: 41px;
+    font-weight: 700;
+    line-height: 49px;
+  }
+
+  .subText {
+    margin: 0 !important;
+    text-align: justify;
+    line-height: 28.1px;
+  }
+
+  .bannerBtn {
+    margin-top: 6.9rem !important;
+  }
+}
+
+@media only screen and (max-width: 821px) and (min-width: 450px) {
+  .container {
+    background-image: url(https://raw.githubusercontent.com/Awka-man/image-bucket/main/bkgrd/hme/tab/bkgrdTab.png);
+    height: 618.4px !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10% 0 0 2.5rem !important;
+    width: 100vw !important;
+  }
+
+  .bannerBtn {
+    margin-top: 0 !important;
+  }
+
+  .btnText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-right: 0 !important;
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 29px;
+    color: #ffffff;
+  }
+
+  .bannerBtn > button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 77.5px;
+    width: 294.3px;
+    border-radius: 5.2px;
+    background-color: #229698;
+    margin-top: 3rem !important;
+  }
+
+  .svgAnimate {
+    display: none;
+  }
+
+  .bannerTtext {
+    height: 150px !important;
+    margin-bottom: 0 !important;
+    width: 431.63px !important;
+  }
+
+  .bannerTtext > h2 {
+    font-size: 41px;
+    font-weight: 700;
+    line-height: 49px;
+  }
+
+  .mobileText {
+    display: flex;
+    align-items: center;
+    padding: 0 3rem;
+    width: 100%;
+    height: 280px;
+  }
+
+  .mobileText > h3 {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    height: 153px;
+  }
+
+  .message {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 540px) and (min-width: 280px) {
+  .container {
+    background-image: url(https://raw.githubusercontent.com/Awka-man/image-bucket/main/bkgrd/hme/mobile/bkgrdMob.png);
+    height: 326.65px !important;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10% 0 0 1rem !important;
+    width: 100vw !important;
+  }
+
+  .message {
+    display: none;
+  }
+
+  .bannerBtn {
+    margin-top: 0 !important;
+  }
+
+  .bannerTtext {
+    height: 78px !important;
+    margin-bottom: 0 !important;
+    width: 228px;
+  }
+
+  .bannerTtext > h2 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+  }
+
+  .btnText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-right: 0 !important;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 15px;
+    color: #ffffff;
+  }
+
+  .bannerBtn > button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40.9px;
+    width: 155.5px;
+    border-radius: 3px;
+    background-color: #229698;
+    margin-top: 2rem !important;
+  }
+
+  .svgAnimate {
+    display: none;
+  }
+
+  .mobileText {
+    display: flex;
+    align-items: center;
+    padding: 0 3rem;
+    width: 100%;
+    height: 150px;
+  }
+
+  .mobileText > h3 {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+    height: 81px;
+  }
+}
+
+@media (max-width: 280px) {
+  .mobileText {
+    padding-bottom: 51px;
+  }
+}

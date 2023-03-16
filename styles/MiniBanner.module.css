@@ -1,0 +1,19 @@
+.wrapper {
+  position: relative;
+  background-image: url('../public/assets/images/miniBanner.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* &::after {
+    content: '';
+    position: absolute;
+    right: -495px;
+    top: 0;
+    width: 56.25rem;
+    height: 40.625rem;
+    background-image: url('../public/assets/images/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  } */
+}

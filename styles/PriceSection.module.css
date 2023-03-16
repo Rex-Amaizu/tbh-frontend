@@ -1,0 +1,249 @@
+.priceContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  height: 803px;
+  max-width: 100%;
+  background-color: white;
+  margin-top: 30px;
+  margin-bottom: 180px;
+}
+
+.priceContainer > label {
+  position: absolute;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #212121;
+  margin-top: 250px;
+}
+
+.priceContainer > p {
+  position: absolute;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 107%;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #028789;
+  margin-top: 300px;
+}
+
+.cardDiv {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  gap: 51px;
+  margin-top: 400px;
+}
+
+.buttonDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  position: absolute;
+  background: #028789;
+  border-radius: 2.53px;
+  margin-top: 800px;
+  width: 202px;
+  height: 46px;
+  cursor: pointer;
+}
+
+.buttonDiv > p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 110%;
+  text-align: center;
+  color: #ffffff;
+}
+
+@media (max-width: 1500px) {
+  .priceContainer {
+    margin-top: 30px;
+    margin-bottom: 180px;
+  }
+
+  .priceContainer > label {
+    margin-top: 200px;
+  }
+
+  .priceContainer > p {
+    margin-top: 250px;
+  }
+
+  .cardDiv {
+    margin-top: 350px;
+  }
+
+  .buttonDiv {
+    margin-top: 750px;
+  }
+}
+@media (max-width: 1400px) {
+  .priceContainer {
+    margin-top: 30px;
+    margin-bottom: 100px;
+  }
+
+  .priceContainer > label {
+    margin-top: 200px;
+  }
+
+  .priceContainer > p {
+    margin-top: 250px;
+  }
+
+  .cardDiv {
+    margin-top: 350px;
+  }
+
+  .buttonDiv {
+    margin-top: 700px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .priceContainer {
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+
+  .priceContainer > label {
+    margin-top: 150px;
+  }
+
+  .priceContainer > p {
+    margin-top: 200px;
+  }
+
+  .cardDiv {
+    margin-top: 300px;
+  }
+
+  .buttonDiv {
+    margin-top: 650px;
+  }
+}
+@media (max-width: 1300px) {
+  .priceContainer {
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .priceContainer {
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+
+  .priceContainer > label {
+    margin-top: 120px;
+  }
+
+  .priceContainer > p {
+    margin-top: 170px;
+  }
+
+  .cardDiv {
+    margin-top: 240px;
+  }
+
+  .buttonDiv {
+    margin-top: 580px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .priceContainer {
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+
+  .priceContainer > label {
+    margin-top: 120px;
+  }
+
+  .priceContainer > p {
+    margin-top: 170px;
+  }
+
+  .cardDiv {
+    margin-top: 240px;
+    gap: 10px;
+  }
+
+  .buttonDiv {
+    margin-top: 580px;
+  }
+}
+
+@media (max-width: 900px) {
+  .priceContainer {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    height: 950px;
+  }
+
+  .priceContainer > label {
+    margin-top: 20px;
+  }
+
+  .priceContainer > p {
+    margin-top: 80px;
+  }
+
+  .cardDiv {
+    margin-top: 180px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .buttonDiv {
+    margin-top: 850px;
+  }
+}
+
+@media (max-width: 600px) {
+  .priceContainer {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    height: 1300px;
+  }
+
+  .priceContainer > label {
+    margin-top: 20px;
+  }
+
+  .priceContainer > p {
+    margin-top: 80px;
+  }
+
+  .cardDiv {
+    margin-top: 160px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .buttonDiv {
+    margin-top: 1200px;
+  }
+}

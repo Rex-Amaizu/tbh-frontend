@@ -1,0 +1,240 @@
+.faqContainer {
+  width: 100%;
+  height: auto !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem 0 4rem 0;
+  background-color: #f6fafe;
+}
+
+.faqBox {
+  height: inherit;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.accordionHeader {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+}
+
+.accordionHeader > h1 {
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 29px;
+  text-align: center;
+  color: #212121;
+  text-transform: uppercase;
+}
+
+.accordionParagraph {
+  display: flex;
+  justify-content: center;
+}
+
+.accordionParagraph > h6 {
+  font-size: 19px;
+  line-height: 22px;
+  text-align: center;
+  color: #212121;
+}
+
+.accordion {
+  max-width: 100%;
+  margin: 3rem auto;
+  max-height: 600px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  border-bottom: 1px solid #ffffff;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.accordion::-webkit-scrollbar {
+  display: none;
+}
+
+.accordionTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  cursor: pointer;
+  height: 90px;
+  align-items: center;
+  border-top: 1px solid #ffffff;
+}
+
+.titleText {
+  font-family: 'Poppins' sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+.accordionTitle:hover {
+  background-color: #f8b400;
+}
+
+.accordionContent {
+  padding: 1.5rem;
+}
+
+.accordionContent {
+  background-color: #3f6b6b;
+  height: 177px;
+  overflow: auto;
+  color: #ffffff;
+}
+
+.faqFooter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.faqFooter > h1 {
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  color: #000000;
+}
+
+.faqFooter > h3 {
+  font-size: 25px;
+  line-height: 25px;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #212121;
+}
+
+.buttonBtn > button {
+  height: 60px;
+  width: 215.3px;
+  border-radius: 5.8px;
+  background-color: #229698;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonBtn > button > div {
+  color: #ffffff;
+  font-size: 19px;
+  line-height: 21px;
+  height: 25.7px;
+  margin-right: 0.7rem;
+  text-transform: uppercase;
+}
+
+.buttonBtn > button > span {
+  align-self: center;
+}
+
+@media (max-width: 1280px) {
+  .accordTitle {
+    height: auto !important;
+    padding-top: 1.3rem !important;
+    padding-bottom: 1.3rem !important;
+  }
+
+  .faqContent > span {
+    white-space: normal;
+  }
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.accordionContainer {
+  width: 100%;
+  height: auto;
+  margin-top: 3rem;
+}
+
+.accord {
+  width: 67%;
+  height: auto;
+  margin-top: 1rem;
+}
+
+.accordItem {
+  background-color: white;
+  margin-bottom: 20px;
+  padding: 0.6rem 3rem;
+  box-shadow: 0px 0.949686px 6.6478px rgba(0, 0, 0, 0.12);
+  border-radius: 6.6478px;
+}
+
+.accordItem2 {
+  margin-bottom: 0;
+  background-color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 6.6478px;
+  padding: 0.6rem 3rem;
+  height: auto;
+  border-radius: 14px;
+  bottom: -8px;
+  position: relative;
+}
+
+.faqContent {
+  height: auto;
+  width: 100%;
+  background-color: #22969817;
+  margin-bottom: 20px;
+  border-left: 0.3px solid #768396;
+  border-right: 0.3px solid #768396;
+  border-bottom: 0.3px solid #768396;
+  transition: all 12s ease-in-out;
+  padding: 1.3rem 2rem;
+}
+
+.accordTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  height: 52px;
+}
+
+.accordTitle > h2 {
+  font-size: 18px;
+  line-height: 19.3px;
+  color: #212121;
+}
+
+.accordContent {
+  color: gray;
+  transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+  overflow: hidden;
+  max-height: 0;
+}
+
+.accordContent > p {
+  font-size: 15px;
+  line-height: 22.5px;
+  color: #212121;
+}
+
+.show {
+  height: auto;
+  max-height: 9999;
+  transition: all 0.5s cubic-bezier(1, 0, 1, 0);
+}
+
+/* mobile */
+@media (max-width: 640px) {
+  .accordionHeader > h1 {
+    font-size: 12px;
+  }
+}

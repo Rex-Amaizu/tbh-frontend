@@ -1,0 +1,18 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+
+yarn lint
+
+#builds docker image - build must succeed
+docker-compose up -d --build
+
+#use the command below to view docker container
+docker ps -a
+
+# use the command below to run the docker image on its port
+# docker log f <first 3 numbers/alphabets>
+
+yarn run prettier
+
+git add .

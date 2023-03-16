@@ -1,0 +1,30 @@
+.whiteSpace {
+  background-color: white;
+  width: 100%;
+  height: 100px;
+}
+
+.email {
+  text-decoration: underline;
+  color: #f2c900;
+}
+
+.email:hover {
+  color: #ffffff;
+}
+
+.contactContainer {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 140px;
+}
+
+@media (max-width: 600px) {
+  .imageDiv {
+    width: 280px;
+  }
+}

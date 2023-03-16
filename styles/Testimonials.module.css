@@ -1,0 +1,375 @@
+.testimonialContainer {
+  width: 100%;
+  height: 800px;
+  background-color: #f6fafe;
+  padding: 5rem 9rem 2.5rem 9rem;
+}
+
+.testimonialContainer > h3 {
+  text-align: center;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 112%;
+  color: #000000;
+}
+
+.carouselContainer {
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.testimonialContainer > h3 > span {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #229698;
+  border-bottom: 3px solid #229698;
+}
+
+@media (max-width: 1280px) {
+  .testimonialContainer {
+    width: 100%;
+    height: 626px;
+    background-color: #f6fafe;
+    padding: 5rem 4rem 0 5.5rem;
+  }
+
+  .testimonialContainer > h3 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+  }
+
+  .testimonialContainer > h3 > span {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #229698;
+    border-bottom: 3px solid #229698;
+  }
+
+  .textCorner > h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 112%;
+    color: #000000;
+    text-align: left;
+  }
+
+  .textCorner > p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    text-align: left;
+    color: #000000;
+  }
+
+  .carousel {
+    width: 100%;
+    height: 308px !important; /* carousel's height */
+    /* border: 9px solid #000000; use to debug */
+  }
+
+  .carouselContainer {
+    margin-top: 3rem;
+    position: -webkit-sticky;
+    position: sticky;
+  }
+
+  .textCorner {
+    width: 100%;
+    height: 308px !important; /* must match .carousel's height */
+    /*  background-color: brown;  use to debug */
+    flex-direction: column;
+    display: flex;
+    gap: 20px;
+    align-items: start;
+    padding: 1rem 0 0 0 !important;
+  }
+
+  .textCorner > div > span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 162%;
+    text-align: left;
+    color: #000000;
+  }
+
+  .btn {
+    margin-top: 15px;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 912px) {
+  .testimonialContainer {
+    padding: 3.7rem 1rem !important;
+  }
+
+  .textCorner {
+    padding: 1.85rem 0 0 1rem !important;
+  }
+
+  .textCorner > p {
+    font-size: 15px !important;
+    line-height: 20px !important;
+  }
+
+  .textCorner > h3 {
+    font-size: 22px !important;
+    line-height: 25px !important;
+  }
+
+  .textCorner > span {
+    font-size: 15px !important;
+    line-height: 20px !important;
+  }
+
+  .btn {
+    margin-top: 50px !important;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 550px) {
+  .testimonialContainer {
+    padding: 3rem 0 3rem !important;
+  }
+
+  .testimonialContainer > h3 {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .testimonialContainer > h3 > span {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+}
+
+@media only screen and (max-width: 540px) and (min-width: 218px) {
+  .testimonialContainer {
+    padding: 3.5rem 0 2rem !important;
+  }
+  .testimonialContainer > h3 {
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  .testimonialContainer > h3 > span {
+    font-size: 16px;
+    line-height: 16px;
+  }
+}
+
+.carouselItemContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.carousel {
+  width: 100%;
+  height: 480px; /* carousel's height */
+  /* border: 9px solid #000000; use to debug */
+}
+
+.carouselContainer {
+  margin-top: 4rem !important;
+}
+
+.textCorner {
+  width: 100%;
+  height: 480px; /* Height must match .carousel's height */
+  /* background-color: brown; use to debug */
+  flex-direction: column;
+  display: flex;
+  gap: 20px;
+  align-items: start;
+  padding: 4rem 1.5rem 0 1.5rem;
+}
+
+.textCorner > h3 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 112%;
+  text-align: left;
+
+  color: #000000;
+}
+
+.textCorner > p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 162%;
+  text-align: left;
+  color: #000000;
+}
+
+.textCorner > div > span {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 162%;
+  text-align: left;
+  color: #000000;
+}
+
+.textCorner > div > h6 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 162%;
+  text-align: left;
+  color: #000000;
+}
+
+@media only screen and (max-width: 900px) and (min-width: 600px) {
+  .testimonialContainer {
+    padding-top: 4.5rem !important;
+  }
+
+  .wrapper {
+    padding: 0 0 0 0;
+    width: calc(100% / 1);
+    background-color: bisque;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    overflow: auto;
+  }
+
+  .background {
+    width: 100%;
+    /* margin: auto; */
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .cardContainer {
+    height: 350px;
+    padding: 30px;
+    width: 100%;
+    /*background-color: #ffffff;
+     border-left: 10px solid #229698;
+     box-shadow: 5px 10px 5px rgb(0, 0, 0, 0.2);  */
+    background-color: wheat;
+    border-radius: 10px;
+  }
+
+  /* .testimonialContainer > h3 {
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  .testimonialContainer > h3 > span {
+    font-size: 16px;
+    line-height: 16px;
+  } */
+}
+
+@media only screen and (max-width: 550px) and (min-width: 280px) {
+  /* .testimonialContainer {
+    padding-right: 0;
+  } */
+
+  .wrapper {
+    padding: 0 0 0 0;
+    width: calc(100% / 1);
+    background-color: bisque;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    overflow: auto;
+  }
+
+  .testimonialContainer > h3 {
+    margin: 0 6.4px;
+  }
+
+  .background {
+    width: 100%;
+    /* margin: auto; */
+    margin-top: 80px !important;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .cardContainer {
+    /*background-color: #ffffff;
+     border-left: 10px solid #229698;
+     box-shadow: 5px 10px 5px rgb(0, 0, 0, 0.2);  */
+    height: 350px;
+    width: 100%;
+    padding: 30px;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+  }
+}
+
+.imgFrame {
+  display: flex;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  flex-direction: row;
+  border-bottom: 1px solid gray;
+}
+
+.frameTextDiv {
+  align-self: center;
+}
+
+.frameTextDiv > p,
+.description > p {
+  white-space: normal;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.frameTextDiv > h6 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.frameTextDiv > p {
+  color: #229698;
+}
+
+.imgContainer {
+  width: 140px;
+  height: 100px;
+  /* background-color: red; */
+  margin-right: 20px;
+}
+
+.actualImage {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}

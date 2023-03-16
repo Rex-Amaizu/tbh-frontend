@@ -1,0 +1,341 @@
+/* --------------------------------- START OF PLAY SECTION ----------------------- */
+
+.jumbotron {
+  width: '100%';
+  background-color: #f7f7f7;
+  height: auto;
+  padding: 0 3rem 5rem 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.firstDiv {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 2.25rem;
+}
+
+.firstDiv > p,
+.firstDiv > h2 {
+  font-style: normal;
+}
+
+.secondDiv {
+  width: 100%;
+  height: auto;
+  margin-top: 60px;
+  padding: 0 4rem;
+  display: flex;
+  flex-direction: row;
+  gap: 39px;
+  align-items: center;
+  justify-content: center;
+}
+
+.secondDivFirstDiv {
+  display: flex;
+  flex-direction: row;
+  gap: 39px;
+  align-items: center;
+  justify-content: center;
+}
+
+.secondDiv > hr {
+  width: 20%;
+  color: #000000;
+  border-top: 3px solid #000000;
+  margin-bottom: 20px;
+}
+
+.mobile {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobileIcon {
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  margin-top: 10px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  height: auto;
+  width: auto;
+  padding: 1.5rem 1rem;
+  border-radius: 15px;
+  opacity: 1;
+  box-shadow: 0px 2.25466px 60.89px rgba(248, 180, 0, 0.12);
+}
+
+.mobile > h3 {
+  width: 45px;
+  height: 15px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+  color: #212121;
+  margin-left: 10px;
+}
+
+.mobileP {
+  width: 289px;
+  height: 91px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: center;
+  color: #000000;
+  margin-top: 16px;
+}
+
+.firstDiv > h2 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.firstDiv > p {
+  font-weight: 400;
+}
+
+@media (max-width: 1280px) {
+  .firstDiv > h2 {
+    font-size: 18px;
+    line-height: 19.3px;
+    font-weight: 600;
+  }
+
+  .secondDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .secondDivFirstDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  /* .jumbotron {
+    height: 420px;
+  } */
+
+  .firstDiv > p {
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    font-weight: 400;
+  }
+
+  .mobile > h3 {
+    width: 45px;
+    height: 15px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: #212121;
+  }
+
+  .mobileP {
+    width: 236px;
+    height: 91px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    color: #000000;
+    margin-top: 16px;
+  }
+}
+
+@media (max-width: 980px) {
+  .secondDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+}
+
+@media only screen and (max-width: 912px) {
+  .secondDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .secondDivFirstDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 39px;
+  }
+}
+@media only screen and (max-width: 670px) {
+  .secondDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .secondDivFirstDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .secondDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .secondDivFirstDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 320px) {
+  .box {
+    padding: 0.5rem 0.5rem;
+    border-radius: 2px;
+    opacity: 1;
+  }
+
+  .mobileP {
+    width: 250px;
+    height: auto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    margin-top: 10px;
+    /* width: 279px; */
+  }
+}
+
+/* @media (max-width: 540px) {
+  .secondDiv {
+    height: auto;
+  }
+
+  .firstDiv > h2 {
+    font-size: 22px;
+    line-height: 26px;
+  }
+
+  .mobileP > span {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+  }
+
+  .firstDiv > p {
+    text-align: center;
+    font-size: 12px;
+    line-height: 17px;
+    font-weight: 400;
+  }
+
+  .mobile {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .mobileP {
+    text-align: justify;
+    width: auto;
+  }
+
+  .mobileIcon {
+    align-self: center;
+  }
+
+  .firstDiv {
+    margin-top: 4rem !important;
+  }
+}
+
+@media (max-width: 280px) {
+  .secondDiv {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 990px) and (min-width: 819px) {
+  .box {
+    margin-bottom: 2rem;
+  }
+} */
+
+/* ----------------------------- END OF JUMBOTRON ------------------------------- */
+
+/* .tabMobileContainer {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-auto-rows: auto;
+  margin-top: 3rem;
+}
+
+@media (max-width: 1024px) {
+  .tabMobileContainer {
+    grid-gap: 3rem !important;
+    margin-left: 0 !important;
+
+    padding: 0 2rem;
+  }
+}
+
+@media (max-width: 1280px) {
+  .tabMobileContainer {
+    grid-gap: 3rem !important;
+    margin-left: 7rem;
+  }
+}
+
+@media (max-width: 913px) {
+  .tabMobileContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 1rem !important;
+    height: inherit !important;
+    margin-left: 3rem !important;
+  }
+}
+
+@media (max-width: 545px) {
+  .tabMobileContainer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 1rem !important;
+    height: inherit !important;
+    margin-left: 3rem !important;
+  }
+}
+
+@media (max-width: 414px) {
+  .tabMobileContainer {
+    margin-left: 0 !important;
+  }
+} */

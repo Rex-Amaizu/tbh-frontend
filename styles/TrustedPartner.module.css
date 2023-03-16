@@ -1,0 +1,360 @@
+.priceButton {
+  background: linear-gradient(111.09deg, #028789 11.48%, #6bb47b 95.74%);
+  border-radius: 3.14286px;
+}
+
+.cardShadow {
+  box-shadow: -18px 27.25px 70px rgba(248, 180, 0, 0.1);
+}
+
+.trustedPartnerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 73px;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.textContainerParagraph {
+  width: 528px;
+  height: 30px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 112%;
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.textContainerHeading {
+  width: 528px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+
+  text-align: center;
+
+  color: #028789;
+}
+
+.cardsContainer {
+  display: flex;
+  margin-top: 50px;
+  flex-direction: column;
+}
+
+.trustedPartnerCard {
+  box-sizing: border-box;
+  width: 305px;
+  height: 183px;
+  margin-top: 20px;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 36px;
+  padding-left: 24px;
+  padding-right: 21px;
+
+  background: #ffffff;
+  border: 1px solid #028789;
+  border-radius: 11px;
+}
+
+.cardHeader {
+  display: flex;
+  flex-direction: column;
+}
+
+.cardHeader > p {
+  width: 260px;
+  height: 31px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 122%;
+
+  color: #028789;
+}
+
+.cardHeader > h1 {
+  width: 251px;
+  height: 71px;
+  margin-top: 15px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 136%;
+  text-transform: capitalize;
+
+  color: #212121;
+}
+
+.cardCarousel {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  contain: content;
+  width: 76%;
+  height: 450px;
+  overflow-x: scroll;
+  white-space: nowrap;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+  /* IE and Edge */
+  -ms-overflow-style: none;
+  /* Firefox */
+  scrollbar-width: none;
+}
+.cardCarousel::-webkit-scrollbar {
+  display: none;
+}
+
+.activeCard {
+  position: fixed;
+  box-sizing: border-box;
+  width: 448.33px;
+  height: 269px;
+  align-self: center;
+  justify-self: center;
+  margin-top: 15px;
+  margin: auto;
+  right: 0;
+  left: 0;
+  padding-top: 36px;
+  padding-left: 24px;
+  padding-right: 21px;
+
+  background: linear-gradient(111.09deg, #028789 11.48%, #6bb47b 95.74%);
+  /* box-shadow: 0px 40.056px 102.896px rgba(2, 135, 137, 0.34); */
+  border-radius: 16.1694px;
+  border: 1px solid #028789;
+  border-radius: 11px;
+}
+
+.inActiveCard {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 269px;
+  align-self: center;
+  justify-self: center;
+  margin-top: 15px;
+  margin: auto;
+  right: 0;
+  left: 0;
+  mix-blend-mode: luminosity;
+  opacity: 0.1;
+}
+
+.arrowRight {
+  position: absolute;
+  margin-left: 400px;
+  margin-top: 70px;
+  cursor: pointer;
+}
+.arrowLeft {
+  position: absolute;
+  margin-left: -55px;
+  margin-top: 70px;
+  cursor: pointer;
+}
+
+.cardHeaderActive {
+  display: flex;
+  flex-direction: column;
+}
+.cardHeaderActive > p {
+  width: 260px;
+  height: 31px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22.0492px;
+  line-height: 122%;
+
+  color: #ffffff;
+}
+
+.cardHeaderActive > h1 {
+  width: 251px;
+  height: 71px;
+  margin-top: 15px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.1694px;
+  line-height: 136%;
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+
+.startHere {
+  width: 206px;
+  height: 33px;
+  background: linear-gradient(111.09deg, #028789 11.48%, #6bb47b 95.74%);
+  border-radius: 3.14286px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: row;
+  gap: 6.5px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* media queries */
+@media (min-width: 1800px) {
+  .inActiveCard {
+    width: 50%;
+  }
+}
+
+/* tablet */
+@media (max-width: 900px) {
+  .inActiveCard {
+    width: 95%;
+  }
+}
+
+@media (max-width: 868px) and (min-width: 641px) {
+  .trustedPartnerCard {
+    box-sizing: border-box;
+    width: 200px;
+    height: 183px;
+    padding-top: 18px;
+    padding-left: 12px;
+    padding-right: 10px;
+  }
+
+  .cardHeader > p {
+    width: 180px;
+    height: 31px;
+
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 120%;
+  }
+
+  .cardHeader > h1 {
+    width: 251px;
+    height: 71px;
+    margin-top: 15px;
+    font-size: 8px;
+    line-height: 136%;
+  }
+
+  .activeCard {
+    position: fixed;
+    box-sizing: border-box;
+    width: 320px;
+    padding-top: 18px;
+    padding-left: 14px;
+    padding-right: 12px;
+  }
+
+  .arrowRight {
+    margin-left: 285px;
+    margin-top: 85px;
+  }
+
+  .arrowLeft {
+    margin-left: -45px;
+    margin-top: 85px;
+  }
+
+  .inActiveCard {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 269px;
+    align-self: center;
+    justify-self: center;
+    margin-top: 15px;
+    margin: auto;
+    right: 0;
+    left: 0;
+    /* mix-blend-mode: luminosity;
+  opacity: 0.1; */
+  }
+
+  .cardHeaderActive > p {
+    margin-top: 25px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 122%;
+  }
+  .cardHeaderActive > h1 {
+    margin-top: 25px;
+
+    font-size: 12px;
+  }
+}
+
+/* mobile */
+@media (max-width: 530px) {
+  .textContainerParagraph {
+    width: 350px;
+    font-size: 16px;
+  }
+  .textContainerHeading {
+    width: 320px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 340px) {
+  .textContainerParagraph {
+    width: 270px;
+    font-size: 12px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  .textContainerHeading {
+    width: 250px;
+    font-size: 12px;
+  }
+
+  .trustedPartnerCard {
+    box-sizing: border-box;
+    width: 270px;
+  }
+}
+
+@media (min-width: 641px) {
+  .cardsContainer {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .cardCarousel {
+    display: none;
+  }
+}
